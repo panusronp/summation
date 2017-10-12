@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>summation</title>
+</head>
+<body bgcolor="#b9fe83"></body>
+            <h1>summation</h2>
+                <p><input id="num" placeholder="ใส่เลข">  +  <input id="num1" placeholder="ใส่เลข "> =  <a id="run"> ผลลัพธ์</a></p>
+                    <button type="button" onclick="myFunction()">Submit</button>
+                <script>
+                    myFunction=()=> {
+                        var x = document.getElementById("num").value;
+                        var y = document.getElementById("num1").value;
+                        document.getElementById("run").innerHTML = parseInt(x) + parseInt(y);
+                        
+                        // document.write( parseInt(x) + parseInt(y) );
+                    }
+                </script>
+                </body>
+        </body>
+
+
